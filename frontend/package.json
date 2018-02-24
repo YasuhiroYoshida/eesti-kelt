@@ -5,9 +5,9 @@
   "private": true,
   "author": "Johannes Filter",
   "license": "GNU General Public License v3.0",
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/filter1/eesti-kelt.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/filter1/eesti-kelt.git"
   },
   "scripts": {
     "start": "SERVER_ADDRESS='http://localhost:8030' LOGGY_STACKS=true brunch watch --server",
