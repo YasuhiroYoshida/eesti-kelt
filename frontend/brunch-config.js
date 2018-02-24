@@ -10,7 +10,7 @@ exports.files = {
 
 exports.plugins = {
   babel: {
-    presets: ['latest', 'stage-0', 'react'],
+    presets: ['env', 'stage-0', 'react'],
   },
   pleeease: {
     sass: true,
