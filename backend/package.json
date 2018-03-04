@@ -1,13 +1,13 @@
 {
-  "name": "Eesti-Kelt-Backend",
-  "version": "0.1.0",
-  "description": "Backend for English to Estonian Dictionary",
+  "name": "English-Estonian_Dictionary",
+  "version": "1.0.0",
+  "description": "English-Estonian Dictionary Backend",
   "private": true,
-  "author": "Johannes Filter",
+  "author": "Yasuhiro Yoshida",
   "license": "GNU General Public License v3.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/filter1/eesti-kelt.git"
+    "url": "https://github.com/YasuhiroYoshida/english_estonian_dictionary.git"
   },
   "main": "index.js",
   "scripts": {
