@@ -15,23 +15,12 @@ In the background, this dictionary combines two dictionary services available on
 
 In essence, this dictionary first has IES translate your word into an Estonian one and then has ÕS return its three cases for you.
 
-## Run
+## How to run this application
 
 * Prerequisite: [Node.js](https://nodejs.org/en/)
 
-### Frontend
-
 * Install [Brunch](http://brunch.io) (a build tool): `npm install -g brunch`
-* `cd frontend`
-* `npm install`
+* `yarn`
 * `npm start` to compile the code and start a development server
 
   \* When going live, change the server address in the `scripts` section in `package.json`
-
-### Backend
-
-* `cd backend`
-* `npm install`
-* `npm start` to run a start a development server
-
-  \* The default listner port is `8030`. Make sure it is not taken.
