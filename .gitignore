@@ -1,4 +1,4 @@
-**/node_modules
-**/build
-frontend/public
-deploy.sh
+node_modules
+build
+public
+yarn-error.log

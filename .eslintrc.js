@@ -3,7 +3,7 @@ module.exports = {
     "plugins": [
         "react",
         "jsx-a11y",
-        "import"
+        "import",
     ],
     "parserOptions": {
         ecmaVersion: 6,
@@ -15,5 +15,10 @@ module.exports = {
     "env": {
       "jquery": true,
       "browser": true,
-    }
+    },
+    "rules": {
+        "no-console": "off",
+        "comma-dangle": "only-multiline",
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+      }
 };

@@ -1,3 +1,3 @@
 {
-  SERVER_ADDRESS: "http://localhost:8030"
+  SERVER_ADDRESS: "https://en-ee-dictionary-api.herokuapp.com"
 }
