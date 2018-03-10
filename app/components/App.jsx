@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Entry from './Entry';
 
-import { SERVER_ADDRESS } from '../../config.jsenv';
+import { SERVER_ADDRESS } from '../config.js';
 
 class App extends Component {
   constructor() {

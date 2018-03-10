@@ -10,6 +10,7 @@
     "url": "https://github.com/YasuhiroYoshida/en-ee-dictionary.git"
   },
   "scripts": {
+    "start_local": "SERVER_ADDRESS='http://localhost:3333' LOGGY_STACKS=true brunch watch --server",
     "start": "SERVER_ADDRESS='https://en-ee-dictionary.herokuapp.com' LOGGY_STACKS=true brunch watch --server",
     "build": "SERVER_ADDRESS='https://en-ee-dictionary.herokuapp.com' brunch build --production",
     "postinstall": "brunch build --production"

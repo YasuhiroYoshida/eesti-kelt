@@ -25,7 +25,7 @@ yarn
 5. Run `start` script
 
 ```
-npm start
+npm start_local
 ```
 
   \* When going live, change the server address in the `scripts` section in `package.json`
