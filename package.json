@@ -12,7 +12,6 @@
   "scripts": {
     "start_local": "LOGGY_STACKS=true brunch watch --server",
     "start": "LOGGY_STACKS=true brunch watch --server",
-    "build": "brunch build --production",
     "postinstall": "brunch build --production"
   },
   "dependencies": {
