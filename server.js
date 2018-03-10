@@ -4,7 +4,7 @@ const app = express();
 
 const path = require('path');
 
-const port = process.env.PORT || 80;
+const port = process.env.PORT;
 
 app.use(express.static(path.join(__dirname, '/public')));
 
@@ -13,4 +13,3 @@ app.get('*', (req, res) => {
 });
 
 app.listen(port);
-console.log(`App listening on port ${port} or 80`);
