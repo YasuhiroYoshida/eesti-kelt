@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+// Notes component
+// - shows notes
 const Notes = ({ notes }) => (
   <div className="row">
     <div className="col-xs-3">

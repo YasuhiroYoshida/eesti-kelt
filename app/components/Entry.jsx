@@ -4,6 +4,23 @@ import PropTypes from 'prop-types';
 import Notes from './Notes';
 import Rule from './Rule';
 
+// Entry component
+// - shows the following:
+// - English word
+//  |- Estonian word 1
+//    |- Note 1.1
+//    |- Rule 1.1.1
+//    |- Rule 1.1.2
+//    |- Note 1.2
+//    |- Rule 1.2.1
+//    |- Rule 1.2.2
+//  |- Estonian word 2
+//    |- Note 2.1
+//    |- Rule 2.1.1
+//    |- Rule 2.1.2
+//    |- Note 2.2
+//    |- Rule 2.2.1
+//    |- Rule 2.2.2
 const Entry = ({ englTerm, estonianTermsAsList }) => {
   const termsNotesRules = estonianTermsAsList.map((estonianTerm, index) => {
     let notes;

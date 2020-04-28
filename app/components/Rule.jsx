@@ -1,9 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+// Rule component
+// - shows what rule applies to a searched word
 const Rule = ({ number, text }) => {
   let cleanedNumber = number;
-  // Sometimes, it's necessary to remove other characters.
+  // number comes in one of the following two forms: "123" or "123b"
   if (cleanedNumber.match(/[a-z]/i)) {
     cleanedNumber = cleanedNumber.slice(0, cleanedNumber.length - 1);
   }

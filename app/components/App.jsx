@@ -22,7 +22,8 @@ class App extends Component {
 
       $.getJSON(url)
         .done((response) => {
-          // only update results if the user hasn't anyhing changed in between
+          // this.state is not updated if the userInput already has a new value by the time a response is returned
+          // if userInput has a new value, a new request must already have sent. We'll wait for the newest resoponse.
           if (this.state.userInput === newUserInput) {
             this.setState({ data: response });
           }
