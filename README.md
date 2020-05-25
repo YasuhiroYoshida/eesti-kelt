@@ -1,4 +1,4 @@
-# English-Estonian Dictionary
+# English-Estonian Dictionary - RETIRED
 
 https://en-ee-dictionary.herokuapp.com/
 
