@@ -37,7 +37,7 @@
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.10.3",
     "pleeease-brunch": "^3",
-    "sass-brunch": "^2",
+    "sass-brunch": "^3",
     "uglify-js-brunch": "^2"
   }
 }
